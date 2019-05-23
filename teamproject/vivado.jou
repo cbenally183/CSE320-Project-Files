@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat Dec  2 15:06:08 2017
+# Process ID: 6964
+# Current directory: D:/XLINIX Projects/GP/better group project/CSE320-Project-Files/teamproject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15584 D:\XLINIX Projects\GP\better group project\CSE320-Project-Files\teamproject\teamproject.xpr
+# Log file: D:/XLINIX Projects/GP/better group project/CSE320-Project-Files/teamproject/vivado.log
+# Journal file: D:/XLINIX Projects/GP/better group project/CSE320-Project-Files/teamproject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/XLINIX Projects/GP/better group project/CSE320-Project-Files/teamproject/teamproject.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source topmod_tb.tcl
+close_sim
+launch_simulation
+source topmod_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+refresh_hw_target {localhost:3121/xilinx_tcf/Digilent/Digilent Nexys4DDR}
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+close_sim

@@ -1,0 +1,1456 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 6564
+License: Customer
+
+Current time: 	12/2/17 11:58:35 AM MST
+Time zone: 	Mountain Standard Time (America/Phoenix)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 0 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/windows/Sun/Java/bin;C:/windows/system32;C:/windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/ProgramData/Oracle/Java/javapath;C:/Program Files (x86)/Rockwell Software/RSCommon;C:/Perl64/site/bin;C:/Perl64/bin;C:/Program Files/Microsoft MPI/Bin/;C:/windows/system32;C:/windows;C:/windows/System32/Wbem;C:/windows/System32/WindowsPowerShell/v1.0/;C:/Program Files/apache-maven-3.3.9/bin;C:/Program Files/Java/jdk1.8.0_92;C:/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/;C:/Program Files/Microsoft SQL Server/130/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/130/DTS/Binn/;C:/Program Files/Microsoft SQL Server/130/DTS/Binn/;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/;C:/Program Files/dotnet/;C:/Program Files (x86)/Xoreax/IncrediBuild;C:/Program Files/Anaconda3;C:/Program Files/Anaconda3/Scripts;C:/Program Files/Anaconda3/Library/bin;C:/Program Files/Anaconda2;C:/Program Files/Anaconda2/Scripts;C:/Program Files/Anaconda2/Library/bin;C:/Program Files (x86)/Anaconda3;C:/Program Files (x86)/Anaconda3/Scripts;C:/Program Files (x86)/Anaconda3/Library/bin;C:/Program Files (x86)/Anaconda2;C:/Program Files (x86)/Anaconda2/Scripts;C:/Program Files (x86)/Anaconda2/Library/bin;C:/Program Files (x86)/GtkSharp/2.12/bin;C:/Program Files (x86)/Microsoft Emulator Manager/1.0/;C:/Program Files/MATLAB/R2017a/runtime/win64;C:/Program Files/MATLAB/R2017a/bin;C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin;C:/Program Files (x86)/Rational/common;C:/Program Files/TortoiseHg/;C:/Program Files/OpenAFS/Common;C:/Program Files/OpenAFS/Client/Program;C:/Program Files/Git/cmd;C:/Users/jarodr30/AppData/Local/Microsoft/WindowsApps;;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	jarodr30
+User home directory: C:/Users/jarodr30
+User working directory: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/jarodr30/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/jarodr30/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/jarodr30/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/.Xil/Vivado-6564-EN4110005-215
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 585 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 42 MB (+41538kb) [00:00:04]
+// [Engine Memory]: 456 MB (+326826kb) [00:00:04]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\teamproject\teamproject.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 56 MB (+12079kb) [00:00:06]
+// [Engine Memory]: 543 MB (+67526kb) [00:00:06]
+// [GUI Memory]: 59 MB (+908kb) [00:00:08]
+// [Engine Memory]: 574 MB (+4052kb) [00:00:08]
+// Tcl Message: open_project C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/XLINIX Projects/GP/better group project/CSE320-Project-Files/teamproject' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 36 MB. Current time: 12/2/17 11:58:35 AM MST
+// [Engine Memory]: 624 MB (+22027kb) [00:00:09]
+// Project name: teamproject; location: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 857.043 ; gain = 141.945 
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// [GUI Memory]: 67 MB (+4576kb) [00:00:11]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 75 MB (+5354kb) [00:00:11]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 81 MB (+2083kb) [00:00:21]
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  2 11:58:50 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 648 MB. GUI used memory: 40 MB. Current time: 12/2/17 11:58:50 AM MST
+// [Engine Memory]: 656 MB (+712kb) [00:00:43]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 95 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 41 MB. Current time: 12/2/17 12:00:30 PM MST
+// [Engine Memory]: 782 MB (+97634kb) [00:02:05]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 864 MB. GUI used memory: 40 MB. Current time: 12/2/17 12:00:33 PM MST
+// [Engine Memory]: 867 MB (+47675kb) [00:02:06]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 978 MB (+71117kb) [00:02:07]
+// Device: addNotify
+// [GUI Memory]: 86 MB (+681kb) [00:02:08]
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 1193.715 ; gain = 336.672 
+// 'dH' command handler elapsed time: 9 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Open Synthesized Design"); // bs:g (cg:JFrame)
+// [Engine Memory]: 1,028 MB (+1173kb) [00:02:11]
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 305, 26); // dv:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 96 MB (+6340kb) [00:02:11]
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 305, 26, false, false, false, false, true); // dv:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+// RouteApi::initDelayMediator elapsed time: 12.2s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 1,384 MB (+319758kb) [00:02:21]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,403 MB. GUI used memory: 70 MB. Current time: 12/2/17 12:00:51 PM MST
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;39;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 94, 383); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 78, 368); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 107 MB (+6249kb) [00:03:24]
+// Elapsed time: 46 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. , [Synth 8-87] always_comb on 'timer_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:68]. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. , [Synth 8-87] always_comb on 'timer_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:68]. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Controller.sv", 42, 174); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 42, 174, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("Controller.sv", 174, 326); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 115 MB (+2936kb) [00:04:52]
+// Elapsed time: 41 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'memoryselect_clip_1_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:69]. ]", 8, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;69;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Controller.sv", 77, 193, false, false, true, false, false); // bI:J (JPanel:JComponent, cg:JFrame) - Alt Key
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'memoryselect_clip_1_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:69]. ]", 8, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;69;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Controller.sv", 52, 86); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 52, 86, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("Controller.sv", 149, 417); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Controller.sv", 168, 401); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 93, 404); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 85, 414); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 119, 415); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("Controller.sv", 149, 320); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 221, 419); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 1, 417); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: DG_GRAPH_GENERATED
+// f:p (cg:JFrame): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:05:23 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+// [GUI Memory]: 125 MB (+4290kb) [00:06:57]
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,403 MB. GUI used memory: 68 MB. Current time: 12/2/17 12:05:59 PM MST
+// Engine heap size: 1,403 MB. GUI used memory: 69 MB. Current time: 12/2/17 12:06:00 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,403 MB. GUI used memory: 46 MB. Current time: 12/2/17 12:06:01 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("Controller.sv", 156, 421); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,426 MB. GUI used memory: 74 MB. Current time: 12/2/17 12:06:26 PM MST
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;39;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Controller.sv", 12, 440); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 108, 142); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Controller.sv", 163, 331); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. , [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 144, 152); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 115, 168); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 37 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 4); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3936] Found unconnected internal register 'Dserial/tempdata_reg' and it is trimmed from '16' to '15' bits. [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Deserializer.sv:32]. ]", 7, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3936] Found unconnected internal register 'Dserial/tempdata_reg' and it is trimmed from '16' to '15' bits. [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Deserializer.sv:32]. ]", 7, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Deserializer.sv;-;;-;16;-;line;-;32;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("Deserializer.sv", 214, 376); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectCodeEditor("Deserializer.sv", 149, 316); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 133, 316); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectCodeEditor("Deserializer.sv", 98, 174); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 117, 115); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 125, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 141, 196); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 101, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 99, 317); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 132, 400); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ak:q (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ak:q)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // ak:q (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  2 12:10:16 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,443 MB. GUI used memory: 58 MB. Current time: 12/2/17 12:10:53 PM MST
+// Engine heap size: 1,443 MB. GUI used memory: 59 MB. Current time: 12/2/17 12:10:53 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,443 MB. GUI used memory: 48 MB. Current time: 12/2/17 12:10:55 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 11 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Schematic_zoom_in"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f:R
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'nextstate_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 4); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Timer.sv:16]. ]", 7); // ah:i (JViewport:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,460 MB. GUI used memory: 75 MB. Current time: 12/2/17 12:11:36 PM MST
+// [Engine Memory]: 1,460 MB (+6462kb) [00:13:10]
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Deserializer.sv", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 273, 343); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 25 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (LEDS/cathode_reg[6]) is unused and will be removed from module TopModule.. ]", 9); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 229, 364); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 309, 376); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 294, 362); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("Deserializer.sv", 91, 235); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 101, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("Deserializer.sv", 102, 147); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 100, 429); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("Deserializer.sv", 137, 188); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 117, 179); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 115, 125); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 109, 184); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 167, 62); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 23 seconds
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (LEDS/cathode_reg[6]) is unused and will be removed from module TopModule.. ]", 9); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Timer.sv:16]. , [Synth 8-6014] Unused sequential element time2/counter_reg was removed.  [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Timer.sv:16]. ]", 8, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Timer.sv;-;;-;16;-;line;-;16;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Timer.sv:16]. ]", 7, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Timer.sv;-;;-;16;-;line;-;16;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Timer.sv:16]. ]", 7); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 4, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;39;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("Controller.sv", 78, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 54 seconds
+selectCodeEditor("Controller.sv", 565, 81); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 148, 273); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 144, 264); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 186, 269); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Controller.sv", 43, 282); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 133 MB (+1805kb) [00:20:07]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 88 seconds
+selectCodeEditor("Controller.sv", 94, 130); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Controller.sv", 53, 121); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("Controller.sv", 324, 127); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Controller.sv", 66, 128); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Controller.sv", 382, 110); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 148, 123); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 101, 126); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 135, 126); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 65, 141); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 179, 127); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Controller.sv", 99, 141); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 44, 114); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Controller.sv", 94, 129); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Controller.sv", 229, 141); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 222, 145); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 144, 349); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+selectCodeEditor("Controller.sv", 9, 127); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectCodeEditor("Controller.sv", 322, 130); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 199, 295); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 173, 145); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 314, 147); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 71, 161); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 324, 201); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 322, 248); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Controller.sv", 172, 176); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 140, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 294, 180); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 136, 113); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 313, 183); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 321, 244); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 294, 231); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 26 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), synchronizer : synchronizer (synchronizer.sv)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), synchronizer : synchronizer (synchronizer.sv)]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+selectCodeEditor("TopModule.sv", 132, 83); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("TopModule.sv", 109, 86); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("TopModule.sv", 110, 80); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("TopModule.sv", 110, 80, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Deserializer.sv", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("Controller.sv", 184, 399); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+selectCodeEditor("Controller.sv", 142, 249); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("Controller.sv", 324, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 314, 319); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 291, 298); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("Controller.sv", 225, 331); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Controller.sv", 63, 347); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ak:q (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ak:q)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // ak:q (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton("OptionPane.button", "OK"); // JButton:AbstractButton (JPanel:JComponent, H:JDialog)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:25:27 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Deserializer.sv]", 2, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Deserializer.sv]", 2, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("Deserializer.sv", 79, 199); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 79, 199, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("Deserializer.sv", 112, 182); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Deserializer.sv", 78, 267); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:26:10 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,460 MB. GUI used memory: 68 MB. Current time: 12/2/17 12:26:48 PM MST
+// Engine heap size: 1,460 MB. GUI used memory: 69 MB. Current time: 12/2/17 12:26:48 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,460 MB. GUI used memory: 50 MB. Current time: 12/2/17 12:26:50 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g:JCheckBox (JPanel:JComponent, cg:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g:JCheckBox (JPanel:JComponent, cg:JFrame): TRUE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 2); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 2, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;39;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 50, 145); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("Controller.sv", 112, 109); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Controller.sv", 45, 46); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 45, 46, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("Controller.sv", 32, 409); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 32, 409, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("Controller.sv", 152, 213); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 182, 350); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("Controller.sv", 29, 266); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 40, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 37, 333); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 158, 282); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 230, 297); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 153, 328); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 160, 379); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 185, 432); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 77 MB. Current time: 12/2/17 12:29:01 PM MST
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:29:15 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// Engine heap size: 1,484 MB. GUI used memory: 109 MB. Current time: 12/2/17 12:29:55 PM MST
+// TclEventType: CURR_DESIGN_SET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 52 MB. Current time: 12/2/17 12:29:55 PM MST
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 50 MB. Current time: 12/2/17 12:29:57 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:39]. ]", 2, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;39;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 0, 147); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 132, 203); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("Controller.sv", 181, 333); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Controller.sv", 63, 329); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Controller.sv", 480, 164); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 55, 179); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 140 MB (+165kb) [00:32:56]
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "8", 7); // e:JComboBox (ao:JPanel, f:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:31:28 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 65 MB. Current time: 12/2/17 12:32:07 PM MST
+// Engine heap size: 1,484 MB. GUI used memory: 67 MB. Current time: 12/2/17 12:32:07 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 51 MB. Current time: 12/2/17 12:32:08 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:40]. ]", 2); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'nextstate_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Controller.sv:40]. ]", 2, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Controller.sv;-;;-;16;-;line;-;40;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Controller.sv", 37, 353); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Controller.sv", 33, 245); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("Controller.sv", 165, 235); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("Controller.sv", 172, 239); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 145, 353); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:33:18 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 68 MB. Current time: 12/2/17 12:33:54 PM MST
+// Engine heap size: 1,484 MB. GUI used memory: 70 MB. Current time: 12/2/17 12:33:54 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bs:g)
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 52 MB. Current time: 12/2/17 12:33:56 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectCodeEditor("Controller.sv", 0, 130); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 102 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectCodeEditor("Controller.sv", 108, 296); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 98, 412); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("Controller.sv", 98, 291); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 80, 298); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 259, 419); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 67 seconds
+selectCodeEditor("Controller.sv", 195, 368); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 57, 387); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 18, 382); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 183, 370); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 68, 385); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 187, 454); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 39, 470); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 65, 325); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Controller.sv", 48, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Controller.sv", 62, 297); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 107, 269); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 73, 248); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectCodeEditor("Controller.sv", 92, 286); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Controller.sv", 79, 231); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Controller.sv", 39, 454); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 68, 325); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 44, 320); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 25, 314); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 25, 314, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("Controller.sv", 133, 141); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 0, 91); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Controller.sv", 158, 143); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Controller.sv", 556, 94); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 215, 95); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 158, 132); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 146, 144); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("Controller.sv", 29, 128); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 75, 179); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Controller.sv", 402, 95); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Controller.sv", 159, 310); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor("Controller.sv", 398, 313); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 405, 287); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 407, 306); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 407, 292); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("Controller.sv", 326, 335); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 326, 335, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("Controller.sv", 469, 335); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 462, 327); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 57, 346); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 45, 347); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 222, 352); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 335, 351); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Controller.sv", 473, 346); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 23 seconds
+selectCodeEditor("Controller.sv", 85, 289, false, false, true, false, false); // bI:J (JPanel:JComponent, cg:JFrame) - Alt Key
+selectCodeEditor("Controller.sv", 17, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 17, 282); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 39, 331); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 38, 268); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 0, 456); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 81, 427); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 1, 281); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Controller.sv", 49, 297); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("Controller.sv", 27, 215); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 30, 147); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 28, 247); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 27, 95); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Controller.sv", 101, 256); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u:M (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:44:59 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 45 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,489 MB. GUI used memory: 72 MB. Current time: 12/2/17 12:45:46 PM MST
+// Engine heap size: 1,489 MB. GUI used memory: 73 MB. Current time: 12/2/17 12:45:46 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,489 MB. GUI used memory: 53 MB. Current time: 12/2/17 12:45:48 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'cathode_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 3); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Timer.sv:16]. ]", 5); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f:R
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 3, false, true); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G:M (Workspace:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 3, false, true); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G:M (Workspace:JPanel, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+selectCodeEditor("Segment_LED_Interface.sv", 132, 208); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 3, 247); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 468, 344); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 487, 344); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'cathode_reg' [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 3, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// Tcl Message: [Sat Dec  2 12:47:23 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,492 MB. GUI used memory: 56 MB. Current time: 12/2/17 12:47:59 PM MST
+// Engine heap size: 1,492 MB. GUI used memory: 57 MB. Current time: 12/2/17 12:47:59 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,492 MB. GUI used memory: 55 MB. Current time: 12/2/17 12:48:01 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 149, 142); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 159, 164); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 56, 78); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 74, 170); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 48 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 5, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 253, 246); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 158, 71); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 159, 55); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 2, 214); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+// Elapsed time: 32 seconds
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 122, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 157, 251); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 247, 234); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 200, 244); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Segment_LED_Interface.sv", 200, 258); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Segment_LED_Interface.sv", 51, 59); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Deserializer.sv", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G:M (Workspace:JPanel, cg:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G:M (Workspace:JPanel, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // A:b
+selectCodeEditor("Segment_LED_Interface.sv", 269, 48); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 264, 61); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopModule (TopModule.sv), controller : Controller (Controller.sv)]", 3, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("Controller.sv", 199, 198); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "Controller.sv", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// [GUI Memory]: 147 MB (+425kb) [00:55:11]
+typeControlKey((HResource) null, "Segment_LED_Interface.sv", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 72, 143); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 72, 143, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Segment_LED_Interface.sv", 112, 346); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 182, 236); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 179, 248); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 29 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 130, 168); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 150 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 126, 292); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 1, 245); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 52, 250); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 156, 368); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 108, 337); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 103, 320); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 46, 378); // bI:J (JPanel:JComponent, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_UNSELECT_ALL
+// Elapsed time: 11 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 54, 433); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B:JideButton (f:CommandBar, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 223, 176); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 191, 190); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 131, 206); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 81, 216); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:22]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 0, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;22;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 80, 299); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 118, 283); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ak:q (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ak:q)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // ak:q (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' is already up-to-date 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  2 12:59:32 2017] Launched synth_1... Run output will be captured here: C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 69 MB. Current time: 12/2/17 1:00:10 PM MST
+// Engine heap size: 1,495 MB. GUI used memory: 70 MB. Current time: 12/2/17 1:00:10 PM MST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 55 MB. Current time: 12/2/17 1:00:12 PM MST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/jarodr30/Desktop/CSE320-Project-Files-master/teamproject/teamproject.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'MEM1' INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] Finished Parsing XDC File [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bs:g)
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Reloading design"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:19]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\jarodr30\Desktop\CSE320-Project-Files-master\source files\Segment_LED_Interface.sv;-;;-;16;-;line;-;19;-;;-;16;-;"); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-87] always_comb on 'cathode_reg' did not result in combinational logic [C:/Users/jarodr30/Desktop/CSE320-Project-Files-master/source files/Segment_LED_Interface.sv:19]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 106, 144); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 214, 46); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 30 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 3, 277); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Controller.sv", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Segment_LED_Interface.sv", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 171, 164); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Segment_LED_Interface.sv", 170, 184); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 223, 329); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 50 seconds
+selectCodeEditor("Segment_LED_Interface.sv", 308, 63); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
